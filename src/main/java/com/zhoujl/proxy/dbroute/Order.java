@@ -1,8 +1,13 @@
 package com.zhoujl.proxy.dbroute;
 
+/**
+ * @Author zhoujl
+ * @Date 2019/4/18 22:06
+ * @Version 1.0
+ */
 public class Order {
-
     private Object orderInfo;
+    //订单创建时间进行按年分库
     private Long createTime;
     private String id;
 
