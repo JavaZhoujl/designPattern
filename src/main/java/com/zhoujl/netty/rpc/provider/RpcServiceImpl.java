@@ -1,6 +1,6 @@
 package com.zhoujl.netty.rpc.provider;
 
-import com.ultrapower.show.netty.rpc.api.IRpcService;
+import com.zhoujl.netty.rpc.api.IRpcService;
 
 /**
  * Description:

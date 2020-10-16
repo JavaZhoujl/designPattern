@@ -4,6 +4,7 @@ import com.zhoujl.singleton.EnumSingleton;
 
 import java.io.*;
 import java.lang.reflect.Constructor;
+import java.text.NumberFormat;
 
 /**
  * @Author zhoujl
@@ -35,6 +36,9 @@ public class EnumSingletonTest {
 
     public static void main(String[] args) {
         try {
+            NumberFormat formatter = NumberFormat.getCurrencyInstance();
+            formatter.setMaximumFractionDigits(2);
+            System.out.println(formatter.format(366.66/100));
             Class clazz = EnumSingleton.class;
             Constructor c = clazz.getDeclaredConstructor(String.class,int.class);
             c.setAccessible(true);

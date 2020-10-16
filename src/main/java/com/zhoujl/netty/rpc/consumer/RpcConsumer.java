@@ -1,8 +1,8 @@
 package com.zhoujl.netty.rpc.consumer;
 
-import com.ultrapower.show.netty.rpc.api.IRpcHelloService;
-import com.ultrapower.show.netty.rpc.api.IRpcService;
-import com.ultrapower.show.netty.rpc.consumer.proxy.RpcProxy;
+import com.zhoujl.netty.rpc.api.IRpcHelloService;
+import com.zhoujl.netty.rpc.api.IRpcService;
+import com.zhoujl.netty.rpc.consumer.proxy.RpcProxy;
 
 /**
  * Description:
