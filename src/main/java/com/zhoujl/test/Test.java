@@ -57,6 +57,7 @@ class Test {
         Integer e = 321;
         Integer f = 321;
         Long g = 3L;
+        System.out.println(System.currentTimeMillis());
         System.out.println(c==d);
         System.out.println(e==f);
         System.out.println(c==(a+b));
