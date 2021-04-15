@@ -7,4 +7,8 @@ package com.zhoujl.visitor.double_dispatch;
  * @Version 1.0
  **/
 public class KongFuIRole implements IRole {
+    @Override
+    public void accept(AbsActor absActor) {
+        absActor.act(this);
+    }
 }

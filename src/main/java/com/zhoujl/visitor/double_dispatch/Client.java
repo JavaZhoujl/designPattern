@@ -25,6 +25,8 @@ public class Client {
         // 重载在编译器就决定用那个方法，他是根据IRole申明类型决定调用act(IRole role)方法，这是静态绑定
         actor.act(role);
 
+        role.accept(actor);
+
         /**动态绑定，即运行时绑定，相比静态绑定，动态绑定会降低代码的运行效率，但能为编程带来更强的灵活性，
          * Java中的多态即利用动态绑定实现的特性。
          *
